@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+html{
+    font: caption;
+}
+.page{
+    max-width: 1108px;
+    margin: 0 auto;
+}
+.square{
+    height: 30px;
+    text-transform: capitalize;
+    margin-right: 15px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5% ;
+}
+.inline{
+    display: inline-block;
+}
+.red{
+    color: red;
+    text-decoration: underline;
+}
+.blue{
+    color: blue;
+
+}
+.header {
+    margin: 14px 0px 16px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.first{
+    margin: 0;
+    padding-bottom: 12px;
+    letter-spacing: 2px;
+}
+
+.text1{
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 36px;
+    letter-spacing: 2px;
+}
+.rectangle{
+    width: 73%;
+    margin: auto;
+
+}
+.second{
+    background-color: skyblue;
+    text-indent: 5px;
+    color: midnightblue;
+    padding: 12px 0px 8px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 16px;
+
+}
+.text{
+    font-weight: 600;
+}
+.picture{
+    display: inline-block;
+    width: 20%;
+    margin: 0% 2.5% 0%;
+    font-size: 0;
+
+}
+.card {
+    font-size: 0;
+    margin: 0% -2.7%;
+}
+.card img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.picture .product {
+    font-size: 16px;
+}
+.cart{
+    display: inline-block;
+}
+.cart{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    top: -10px;
+
+}
+.count{
+    color: black;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background: skyblue;
+    border-radius: 100%;
+    padding: 3px;
+    font-size: 12px;
+}
+.cart img{
+    position: relative;
+    top: 5%;
+    left: 0%;
+    padding: 5px;
+}
+.floatright{
+    float: right;
+}
+.home{
+    margin: 10px 0 20px;
+}
+.marginarticle{
+    margin-top: 50px;
+}
+.call {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+.callhover :hover{
+    transition: all ease-in-out 0.3s;
+}
+.colorhover{
+    fill:#010002;
+}
+.phonebutton:hover path{
+    fill: #F13C6E;
+}
+.phonebutton{
+    display: block;
+}
+.skew:hover{
+    transform: skew(20deg);
+    transition: all ease-in-out 0.3s;
+}
